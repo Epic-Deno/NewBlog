@@ -3,7 +3,7 @@
  * @Author: Pony
  * @Date: 1985-10-26 16:15:00
  * @LastEditors: Pony
- * @LastEditTime: 2021-08-07 23:20:31
+ * @LastEditTime: 2021-08-07 23:25:52
  */
 import React, { useState } from 'react'
 import Head from 'next/head'
@@ -60,7 +60,7 @@ const Home = () => {
         </Col>
         <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
           <Author />
-          <Advert />
+          {/* <Advert /> */}
         </Col>
       </Row>
       <Footer />
